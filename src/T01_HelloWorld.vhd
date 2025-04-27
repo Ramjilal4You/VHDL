@@ -5,8 +5,9 @@ architecture ta of T01_HelloWorldTb is
 begin
     process is
     begin
+	
         report "Hello World!";
-        wait for 100 ns;
+        wait;
   
     end process;
   
